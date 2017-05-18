@@ -13,15 +13,30 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("images/cover-07.jpg") no-repeat center;
+    background: url("images/cover.png") no-repeat center center;
     background-size: cover;
 }
+
+.flex-item {
+    width: auto;
+    text-align: center;
+}
+.flex-item img {
+    width: 50%;
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+}
+
 .social {
     margin-top: auto;
     margin-bottom: 2%;
     color: white;
 }
-
 .social img {
     width: 40px;
 }
